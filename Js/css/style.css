@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container, #ChangeColorButton, textarea {
+    margin: 20px;
+}
+
+#ChangeColorButton {
+    display: block;
+}
+
+textarea {
+    width: 300px;
+    height: 200px;
+}
+
+#Focus, #Blur {
+    width: 150px;
+    height: 200px;
+}
+
+
+.newClass {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}

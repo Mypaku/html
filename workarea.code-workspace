@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "main"
+		},
+		{
+			"path": "hw 2.2"
+		},
+		{
+			"path": "hw 2.3"
+		},
+		{
+			"path": "hw 2.4"
+		},
+		{
+			"path": "new"
+		},
+		{
+			"path": "Js"
+		},
+		{
+			"path": "BT"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "BT"
+	}
+}

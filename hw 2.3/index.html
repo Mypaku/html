@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post">    
+        <h1>Отправка заявки на  конференцию</h1>
+            <h2>Основные данные</h2>
+                <h3>* Фамилия, имя, отчество</h3>
+                    <input type="text" required size="50">
+                <h3>Дата рождения:</h3>
+                    <input type="text" placeholder="дд.мм.гггг">
+                <h3>Пол:</h3>
+                    <input type="radio" name="gender" value="man">мужской<input type="radio" name="gender" value="woman">женский
+            <h2>Данные для создания личного кабинета</h2>
+                <h3>* Адрес электронной почты</h3>
+                    <input type="email" required size="50">    
+                <h3>* Пароль для создания личного кабинета</h3>
+                    <input type="password" required size="50">      
+                <h3>* Подтверждение пароля</h3>
+                    <input type="password" required size="50">    
+            <h2>Материалы конференции</h2>
+                <h3>* Тема доклада:</h3>
+                    <input type="text" required size="50">    
+                <h3>* Тезисы доклада (не более 1000 символов):</h3>
+                    <textarea cols="48" rows="10" maxlength="1000" required></textarea>     
+                <h3>Файл презентации:</h3>
+                    <input type="file">
+            <h2>Дополнительные опции</h2>
+                <input type="checkbox"> Проживание в отеле<br>
+                <input type="checkbox"> Завтрак<br>
+                <input type="checkbox"> Обед<br>
+                <input type="checkbox"> Ужин<br>
+            <hr>
+                <input type="submit">
+            <hr>
+                <small>* Поля, отмеченные звездочкой, являются обязательными для заполнения</small>
+    </form>
+</body>
+</html>
