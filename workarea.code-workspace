@@ -20,9 +20,12 @@
 		},
 		{
 			"path": "BT"
+		},
+		{
+			"path": "Barbershop"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "new"
+		"liveServer.settings.multiRootWorkspaceName": "Barbershop"
 	}
 }
